@@ -8,17 +8,17 @@
 
 <body>
     <p>Euro to US Dollar converter</p>
-    <form name="converter">
+    <form name="Convert">
         <table class="center">
             <tr>
                 <td>Euro: </td>
-                <td><input type="text" name="euro"  placeholder="Euro"  onChange="euroConverter()" /></td>
+                <td><input type="text" onChange="euroConverter()" placeholder="Euro" name="euro" /></td>
             </tr>
             <tr>
                 <td>Dollar: </td>
-                <td><input type="text" name="dollar" placeholder="Dollar" onChange="dollarConverter()" /></td>
+                <td><input type="text" onChange="dollarConverter()" name="dollar" placeholder="Dollar"  /></td>
             </tr>
-            <td colspan="2" align="center"><input type="button" value="Convert" /></td>
+            <td><input type="button" value="Convert" /></td>
             </tr>
         </table>
     </form>
