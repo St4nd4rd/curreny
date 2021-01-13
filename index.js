@@ -1,8 +1,8 @@
-function ConvertToDollar(n)
+function ConvertToDollar()
                 {
-                    Convert.Dollar.value = n * 1.22;
+                    document.converter.dollar.value = document.convert.euro.value * 1.21723
                 }
-function ConvertToEuro(Zahl) 
+function ConvertToEuro() 
                 {
-                    Convert.Euro.value = n / 1.22;
+                    document.convert.dollar.value = document.convert.euro.value * 1.21723
                 }
