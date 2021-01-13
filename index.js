@@ -1,8 +1,8 @@
 function ConvertToDollar(n)
                 {
-                    UmrechnenForm.Dollar.value = n * 1.23;
+                    Convert.Dollar.value = n * 1.22;
                 }
 function ConvertToEuro(Zahl) 
                 {
-                    UmrechnenForm.Euro.value = n / 1.23;
+                    Convert.Euro.value = n / 1.22;
                 }
