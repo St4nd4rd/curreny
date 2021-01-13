@@ -1,8 +1,8 @@
-function Dollareuro(Zahl)
+function ConvertToDollar(n)
                 {
-                    UmrechnenForm.Dollar.value = Zahl * 1.23;
+                    UmrechnenForm.Dollar.value = n * 1.23;
                 }
-                function Eurodollar(Zahl) 
+function ConvertToEuro(Zahl) 
                 {
-                    UmrechnenForm.Euro.value = Zahl / 1.23;
+                    UmrechnenForm.Euro.value = n / 1.23;
                 }
