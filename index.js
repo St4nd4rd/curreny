@@ -6,3 +6,4 @@ function ConvertToEuro()
                 {
                     document.convert.dollar.value = document.convert.euro.value * 1.21
                 }
+//test
