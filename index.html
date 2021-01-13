@@ -1,0 +1,30 @@
+<html>
+    <body>
+        <head>
+            <script type="text/javascript">
+                function Dollareuro(Zahl) 
+                {
+                    UmrechnenForm.Dollar.value = Zahl * 1.23;
+                }
+                function Eurodollar(Zahl) 
+                {
+                    UmrechnenForm.Euro.value = Zahl / 1.23;
+                }
+            </script>
+        </head>
+
+        <form name="UmrechnenForm" action="">
+                Input: <input name="Input" type="text"> 
+            <br>
+            <br>
+                <input type="button" value="$ zu €" onclick="Dollareuro(UmrechnenForm.Input.value)"> 
+                <input type="button" value="€ zu $" onclick="Eurodollar(UmrechnenForm.Input.value)"> 
+            <br>
+            <br>
+                Ergebnis Euro zu Dollar: <input name="Dollar" type="">
+                <br> 
+                Ergebnis Dollar zu Euro: <input name="Euro" type=""> 
+
+        </form>
+    </body>
+</html>
